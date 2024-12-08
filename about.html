@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multipage Education School Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./Assets/icons/fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <!-- ===================== NAVIGATION COMPONENT===================== -->
+    <nav>
+      <img src="./Assets/images/logo.svg" alt="" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="/">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu" src="./Assets/images/menu.png" alt="" />
+      </div>
+    </nav>
+
+    <!-- ===================== ABOUT-HOME COMPONENT===================== -->
+    <section id="about-home">
+      <h2>About TechEduce /</h2>
+    </section>
+
+    <!-- ===================== ABOUT-CONTAINER COMPONENT===================== -->
+    <section id="about-container">
+      <div class="about-img">
+        <img src="./Assets/images/a.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>
+          Welcome to TechEduce, Lorem ipsum dolor sit amet consectetur
+          adipisicing.
+        </h2>
+        <p>
+          You can start and finish one of these popular courses, Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Est, fuga!
+        </p>
+        <div class="about-fe">
+          <img src="./Assets/images/fe1.png" alt="" />
+          <div class="fe-text">
+            <h5>400+ Courses</h5>
+            <p>
+              You can start and finish one of these popular courses, sit amet
+              consectetur adipisicing elit. Est, fuga!
+            </p>
+          </div>
+        </div>
+        <div class="about-fe">
+          <img src="./Assets/images/fe2.png" alt="" />
+          <div class="fe-text">
+            <h5>Lifetime Access</h5>
+            <p>
+              You can start and finish one of these popular courses, amet
+              consectetur adipisicing elit. Est, fuga!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEARURES COMPONENT===================== -->
+    <section id="features">
+      <h1>Awesome Features</h1>
+      <p>Replenish Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <div class="fea-base">
+        <div class="fea-box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Scholarship Facilities</h3>
+          <p>
+            One make creerpeth, Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+          </p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-award"></i>
+          <h3>Global Certification</h3>
+          <p>
+            One make creerpeth, Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+          </p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Dell Online Courses</h3>
+          <p>
+            One make creerpeth, Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRUST COMPONENT===================== -->
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Replenish Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="trust-img">
+          <img src="./Assets/images/trust (1).png" alt="" />
+          <img src="./Assets/images/trust (2).png" alt="" />
+          <img src="./Assets/images/trust (3).png" alt="" />
+          <img src="./Assets/images/trust (4).png" alt="" />
+          <img src="./Assets/images/trust (5).png" alt="" />
+          <img src="./Assets/images/trust (6).png" alt="" />
+        </div>
+      </section>
+    <!-- ===================== FOOTER COMPONENT===================== -->
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Manage Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Manage Reputation</li>
+        <li>Marketing Service</li>
+        <li>Power Tools</li>
+        <li>Manage Website</li>
+      </div>
+      <div class="footer-col">
+        <h3>Features</h3>
+        <li>Marketing Service</li>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Manage Website</li>
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Power Tools</li>
+        <li>Manage Reputation</li>
+        <li>Manage Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You cat trust us. L orem ipsum dolor sit amet.</p>
+        <div class="newsletter">
+          <input type="text" placeholder="Your Email address" />
+          <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright &copy;2021 All rights reseved | This template is made by
+          Tech3etc
+        </p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===================== JAVASCRIPT ===================== -->
+    <script>
+      let open = document.getElementById("menu");
+      let close = document.getElementById("menu-close");
+      let menu = document.querySelector("nav .navigation ul");
+      open.addEventListener("click", () => {
+        menu.classList.add("active");
+      });
+      close.addEventListener("click", () => {
+        menu.classList.remove("active");
+      });
+    </script>
+  </body>
+</html>
